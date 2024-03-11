@@ -16,6 +16,6 @@ images:
   
 options:
     defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
-    defaultLogsBucket: 'gs://ancy-store'
+    
 substitutions:
-  _BUCKET_NAME: 'ancy-store'
+  _BUCKET_NAME: 'ancy-bucket'
