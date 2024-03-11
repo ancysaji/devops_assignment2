@@ -1,10 +1,10 @@
 steps:
   # Docker Build
   name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/My Project 97586/ancy-100925334/${SHORT_SHA}', '.']
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/plenary-glass-401802/ancy-100925334/${SHORT_SHA}', '.']
   # Docker Push
   name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/My Project 97586/ancy-100925334/${SHORT_SHA}']
+  args: ['push', 'us-central1-docker.pkg.dev/plenary-glass-401802/ancy-100925334/${SHORT_SHA}']
   
 
 # setup cloud sdk
