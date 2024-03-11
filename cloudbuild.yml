@@ -12,10 +12,10 @@ steps:
 
     
 images:
-  - ##provide image info##
+  ##provide image info##
   
 options:
-    defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
     
 substitutions:
   _BUCKET_NAME: 'ancy-bucket'
